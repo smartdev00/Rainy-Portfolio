@@ -1,0 +1,37 @@
+{
+  "name": "rain-effect",
+  "version": "1.0.0",
+  "description": "Rain Effects with WebGL and Canvas",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codrops/RainEffect.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN http://tympanus.net/codrops/licensing/",
+  "homepage": "https://github.com/codrops/RainEffect",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel": "^6.23.0",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.1",
+    "core-js": "^3.41.0",
+    "extend": "^3.0.2",
+    "fs": "^0.0.1-security",
+    "glslify": "^7.1.1",
+    "gsap": "^3.12.7",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^3.0.2",
+    "uglify-js": "^3.19.3",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
